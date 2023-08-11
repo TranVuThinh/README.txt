@@ -1,0 +1,164 @@
+/* RMIT University Vietnam 
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: TranVuThinh
+ID: S3932811
+Acknowledgement: https://bookshop.org/
+
+Online Bookstore: Books, NOOK ebooks, Music, Movies & Toys | Barnes & Noble® (barnesandnoble.com)
+ 
+Inspiring Readers: A Little Free Library Story - YouTube
+
+https://www.penguinrandomhouse.com/
+
+https://www.themarginalian.org/
+
+https://www.kobo.com/us/en */
+html{
+    background-color: crimson;
+}
+
+.logo {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div ul {
+    text-align: center;
+}
+
+.c1 {
+    transition: transform 0.5;
+}
+
+.c1:hover {
+    transform: translateY(-5px);
+}
+
+.header {
+    background-color: white;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    border: 5px solid;
+    width: 500px;
+    margin: 0 500px;
+
+}
+
+div h2 {
+    font-size: 55px;
+}
+
+div h3 {
+    font-size: 35px;
+    text-align: center;
+    color: wheat;
+}
+
+div h4 {
+    font-size: 15px;
+    text-align: center;
+    color: aquamarine;
+}
+
+nav {
+    background-color: aliceblue;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .s-box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .s-box .s-card {
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: crimson;
+    padding: 20px 20px;
+}
+
+@media (max-width: 768px){
+    .navigationbar{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 5px 20px;
+    }
+    .navigationbar ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .navigationbar li{
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: larger;
+    }
+    .navigationbar{
+        display: none;
+    }
+    .mobilenavbaricon{
+        display: block;
+    }
+    .mobilenavbaricon:hover + .navigationbar{
+        display: block;
+    }
+    .navigationbar:hover{
+        display: block;
+    }
+    .contact-form input, .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+a h2 {
+    text-decoration: none;
+    color: black;
+}
+
+.video p {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.b-des h5 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.b-des p {
+    color: black;
+    font-size: 25px;
+}

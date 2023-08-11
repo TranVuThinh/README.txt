@@ -1,0 +1,165 @@
+/* RMIT University Vietnam 
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: TranVuThinh
+ID: S3932811
+Acknowledgement: https://bookshop.org/
+
+Online Bookstore: Books, NOOK ebooks, Music, Movies & Toys | Barnes & Noble® (barnesandnoble.com)
+ 
+Inspiring Readers: A Little Free Library Story - YouTube
+
+https://www.penguinrandomhouse.com/
+
+https://www.themarginalian.org/
+
+https://www.kobo.com/us/en */
+html{
+    background-color: white;
+}
+
+header{
+    background-color: white;
+}
+
+header .logo{
+    padding-right: 0;
+}
+
+.navigationbar{
+    display: block;
+    justify-content: center;
+}
+
+header .navigationbar ul {
+    float: none;
+    background-color: red;
+}
+
+header .navigationbar li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 6px;
+}
+
+header .navigationbar a{
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.contact{
+    background-color: crimson;
+}
+
+.contact-box button{
+    background-color: silver;
+    text-transform: uppercase;
+}
+
+footer{
+    padding-top: 20px;
+    ;
+}
+
+.contact-form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+label{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+input , textarea{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+option{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 768px){
+    .navigationbar{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 5px 20px;
+    }
+    .navigationbar ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .navigationbar li{
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: larger;
+    }
+    .navigationbar{
+        display: none;
+    }
+    .mobilenavbaricon{
+        display: block;
+    }
+    .mobilenavbaricon:hover + .navigationbar{
+        display: block;
+    }
+    .navigationbar:hover{
+        display: block;
+    }
+    .contact-form input, .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.mobilenavbaricon{
+    text-align:center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: larger;
+    background-color:red;
+    display: none;
+}
+
+nav {
+    background-color: aliceblue;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .s-box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .s-box .s-card {
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: crimson;
+    padding: 20px 20px;
+}

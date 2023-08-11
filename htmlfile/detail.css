@@ -1,0 +1,142 @@
+/* RMIT University Vietnam 
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: TranVuThinh
+ID: S3932811
+Acknowledgement: https://bookshop.org/
+
+Online Bookstore: Books, NOOK ebooks, Music, Movies & Toys | Barnes & Noble® (barnesandnoble.com)
+ 
+Inspiring Readers: A Little Free Library Story - YouTube
+
+https://www.penguinrandomhouse.com/
+
+https://www.themarginalian.org/
+
+https://www.kobo.com/us/en */
+html{
+    background-color: crimson;
+}
+
+.logo {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.header {
+    background-color: white;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: aliceblue;
+}
+
+div ul {
+    text-align: center;
+}
+
+
+.services {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .s-box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .s-box .s-card {
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: crimson;
+    padding: 20px 20px;
+}
+
+@media (max-width: 768px){
+    .navigationbar{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 5px 20px;
+    }
+    .navigationbar ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .navigationbar li{
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: larger;
+    }
+    .navigationbar{
+        display: none;
+    }
+    .mobilenavbaricon{
+        display: block;
+    }
+    .mobilenavbaricon:hover + .navigationbar{
+        display: block;
+    }
+    .navigationbar:hover{
+        display: block;
+    }
+    .contact-form input, .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.b-des h5 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.b-des p {
+    color: black;
+    font-size: 25px;
+}
+
+.b-img button {
+    align-items: center;
+    justify-content: center;
+}
+
+.b-img p {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.b-img img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+}
+
+table {
+    border: 5px solid;
+    width: 500px;
+    margin: 0 500px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
